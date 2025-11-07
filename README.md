@@ -131,7 +131,7 @@ python src/BMD_Prediction.py
 ### Training History
 
 <div align="center">
-  <img src="outputs/plots/training_history.png" width="800" alt="CNN Training History"/>
+  <img src="Outputs/plots/training_history.png" width="800" alt="CNN Training History"/>
   <p><em>CNN training progress over 50 epochs showing loss, metrics, and learning curves</em></p>
 </div>
 
@@ -140,7 +140,7 @@ python src/BMD_Prediction.py
 <table>
   <tr>
     <td align="center">
-      <img src="outputs/plots/roc_curve.png" width="400" alt="ROC Curves"/>
+      <img src="Outputs/plots/roc_curve.png" width="400" alt="ROC Curves"/>
       <br/>
       <strong>ROC Curves</strong>
       <br/>
@@ -149,7 +149,7 @@ python src/BMD_Prediction.py
       CNN: AUC = 0.7353
     </td>
     <td align="center">
-      <img src="outputs/plots/model_comparison.png" width="400" alt="Metrics Comparison"/>
+      <img src="Outputs/plots/model_comparison.png" width="400" alt="Metrics Comparison"/>
       <br/>
       <strong>Performance Metrics</strong>
       <br/>
@@ -158,14 +158,14 @@ python src/BMD_Prediction.py
   </tr>
   <tr>
     <td align="center">
-      <img src="outputs/plots/confusion_matrix_svm.png" width="400" alt="SVM Confusion Matrix"/>
+      <img src="Outputs/plots/confusion_matrix_svm.png" width="400" alt="SVM Confusion Matrix"/>
       <br/>
       <strong>SVM Confusion Matrix</strong>
       <br/>
       Accuracy: 90.74%
     </td>
     <td align="center">
-      <img src="outputs/plots/confusion_matrix_cnn.png" width="400" alt="CNN Confusion Matrix"/>
+      <img src="Outputs/plots/confusion_matrix_cnn.png" width="400" alt="CNN Confusion Matrix"/>
       <br/>
       <strong>CNN Confusion Matrix</strong>
       <br/>
@@ -177,7 +177,7 @@ python src/BMD_Prediction.py
 ### Prediction Analysis
 
 <div align="center">
-  <img src="outputs/plots/prediction_scatter.png" width="800" alt="Prediction Scatter Plots"/>
+  <img src="Outputs/plots/prediction_scatter.png" width="800" alt="Prediction Scatter Plots"/>
   <p><em>Predicted vs True BMD values for both models - SVM shows tighter correlation</em></p>
 </div>
 
