@@ -1,0 +1,46 @@
+======================================================================
+CLASSIFICATION PERFORMANCE COMPARISON
+CNN vs SVM for Normal vs Low BMD Classification
+======================================================================
+
+OVERALL METRICS COMPARISON:
+----------------------------------------------------------------------
+Metric               CNN                       SVM                      
+----------------------------------------------------------------------
+Accuracy             0.9630                    0.9074                   
+Precision            0.9312                    0.9653                   
+Recall               0.7963                    0.9074                   
+F1-Score             0.8476                    0.9261                   
+----------------------------------------------------------------------
+
+PER-CLASS PERFORMANCE:
+----------------------------------------------------------------------
+
+Low BMD Class (T-score < -1.0):
+  CNN - Precision: 0.1667, Recall: 0.6667
+  SVM - Precision: 0.3750, Recall: 1.0000
+
+Normal Class (T-score ≥ -1.0):
+  CNN - Precision: 0.9762, Recall: 0.8039
+  SVM - Precision: 1.0000, Recall: 0.9020
+
+======================================================================
+CONFUSION MATRICES:
+======================================================================
+
+CNN Confusion Matrix:
+                Predicted Low BMD    Predicted Normal
+Actual Low BMD       2                  1                 
+Actual Normal        10                 41                
+
+SVM Confusion Matrix:
+                Predicted Low BMD    Predicted Normal
+Actual Low BMD       3                  0                 
+Actual Normal        5                  46                
+
+======================================================================
+BEST CLASSIFIER:
+======================================================================
+
+Best Classifier: CNN
+Accuracy Advantage: 5.56%

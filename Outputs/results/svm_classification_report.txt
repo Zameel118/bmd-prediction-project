@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+     Low BMD     0.3750    1.0000    0.5455         3
+      Normal     1.0000    0.9020    0.9485        51
+
+    accuracy                         0.9074        54
+   macro avg     0.6875    0.9510    0.7470        54
+weighted avg     0.9653    0.9074    0.9261        54
